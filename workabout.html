@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="workabout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5989b;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.socbar{
+    height: 10vh;
+    
+    background-color:#6d6875;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+}
+.socbar > h1{
+  color: whitesmoke;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  font-family: 'Stick No Bills', sans-serif;
+  letter-spacing: 8px;
+  
+  
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+ nav{
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    padding-right: 30px;
+    
+ }
+ li{
+    float: left;
+    padding: 10px;
+    margin-top: -12px;
+    
+ }
+ li > a{
+     text-decoration: none;
+     color: whitesmoke;
+     font-size: 1.1rem;
+     font-family: 'Titillium Web', sans-serif;
+     transition: 0.3s;
+     
+ }
+ li > a:hover{
+
+    background-color: whitesmoke ;
+    color: #6d6875;
+    border-radius: 5px;
+    
+ }
+
+ 
+ .fas{
+ padding-right: 5px;
+ }
+ .far{
+    padding-right: 5px;
+ }
+ .fab{
+    padding-right: 5px;
+ }
+ .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ section{
+     background-color:#b5838d ;
+     width: 70vw;
+     height: 1400px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* display: flex;
+     justify-content: center;
+     align-items: center;*/
+ }
+ h3{
+     text-align: center;
+     font-size: 2rem;
+     color: whitesmoke;
+     font-family: 'Rajdhani', sans-serif;
+     letter-spacing: 8px;
+     border-bottom: 2px solid whitesmoke;
+     letter-spacing: 22px;
+ }
+ .img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+   
+     
+ }
+.box{
+     height: 202vh;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+     margin-left: 100px;
+     margin-right: 100px;
+     background-color: whitesmoke;
+     padding-top: 20px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+    
+ }
+ img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;    border-radius: 3px;
+    width: 42.6rem;
+    height: 21.8rem;
+ }
+h2{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 10px;
+    color: #324e4e;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+p{
+    padding-left: 35px;
+    padding-right: 25px;
+    font-size: 1.3rem;
+    color: #1e2f2f;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+footer{
+    height: 10vh;
+    background-color:#6d6875;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: center;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+}
+ @media(max-width:500px){
+.socbar{
+    height: 20vh;
+
+     }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    width: 50vw;
+    height: 25vh;
+}
+.box{
+    width: 300px;
+    height: 637vh;
+}
+
+/*section{
+    width: 90vw;
+}
+.socbar{
+    width: 90vw;
+}*/
+section{
+display: flex;
+width: 90vw;
+align-items: center;
+flex-direction: column;
+height: 4010px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+        </style>
+</head>
+
+<body>
+
+    <div class="contanier">
+
+
+        <div class="socbar">
+
+            <h1><i class="fas fa-fist-raised"></i>WORKOUT</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="workabout.html"><i class="fas fa-question-circle"></i></i>About</a></li>
+                    <li><a href="workcont.html"><i class="fas fa-address-book"></i>Contact</a></li>
+                    <li><a href="workgal.html"><i class="fab fa-envira"></i>Galery</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <div class="section">
+            <section>
+                <h3>About Us</h3>
+
+
+                <div class="box box-1">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, accusamus. Neque quia nisi atque
+                        qui iure illo quisquam similique at optio repellendus ipsam explicabo soluta dolorem quasi
+                        delectus officia provident quibusdam, minus amet et doloribus est aliquam? Vero eum dolorum
+                        laudantium! Odio, omnis facilis ducimus minima provident fuga reprehenderit veritatis, non animi
+                        ullam error voluptates laudantium accusamus voluptas esse quam. Suscipit, omnis? Amet suscipit
+                        cum deserunt placeat doloribus fuga magni odit nulla. Ut delectus quam et possimus vel amet
+                        nulla pariatur repellendus voluptatum! Ullam sint nobis, cupiditate rem itaque nulla dignissimos
+                        iure ex, saepe alias quis omnis amet, in provident? Aliquid, doloribus ullam? Sunt quod
+                        recusandae temporibus voluptatum, quibusdam placeat veniam! Perspiciatis nulla cupiditate nobis
+                        quidem ipsa provident, reprehenderit omnis? Sapiente illum sunt iste, repellat nihil amet
+                        voluptates quas sint, voluptatum quos in, rerum natus veritatis. Perferendis architecto qui
+                        quas! Recusandae eum, numquam odit explicabo voluptatem error voluptas totam autem perspiciatis
+                        tempora fugit blanditiis iure accusamus eveniet enim fugiat repellat incidunt nemo! Rem
+                        distinctio exercitationem nam eaque, ratione voluptas perferendis doloribus expedita vel aut
+                        aperiam tempore porro totam laboriosam adipisci nostrum fugit illum nihil. Voluptatibus rerum
+                        veniam fuga fugiat in totam excepturi tempora incidunt ipsa voluptates. Quos, itaque repudiandae
+                        voluptatem cum quod qui fugit sint totam dolorem amet, quasi porro similique, recusandae
+                        veritatis culpa consequatur. Fugit itaque voluptatibus vero accusantium eaque. At recusandae
+                        ullam aspernatur obcaecati harum itaque, aperiam repudiandae? Quas, deserunt dicta! Maiores
+                        cupiditate totam non omnis, et veniam at perspiciatis a optio cum similique recusandae, iure vel
+                        sequi error eum! Illum rerum corporis voluptas dignissimos eaque voluptatibus delectus quo ipsa
+                        perferendis eum, dolorum repudiandae sit repellendus saepe eveniet quis, minima ad ducimus
+                        doloremque et adipisci autem quidem. Necessitatibus reprehenderit perspiciatis eaque voluptatum
+                        atque. Possimus, modi mollitia nemo tempore aliquid dolore voluptatum reiciendis recusandae nisi
+                        maxime quo sed voluptate doloribus nulla optio, eum dolores suscipit delectus. Maiores alias
+                        officiis vitae molestiae iusto nemo, voluptatem eos enim, consectetur neque quod officia impedit
+                        similique libero! Ut, atque. Veritatis nostrum sit tempore recusandae saepe quo maiores cum?
+                        Tempora repellendus quae accusamus est atque fugiat cumque aspernatur. Numquam expedita
+                        asperiores esse similique vitae? Suscipit dolor earum nemo itaque totam! Optio porro blanditiis
+                        quasi vero iusto distinctio voluptatum reprehenderit id et consequatur. Facere modi, voluptas
+                        exercitationem harum adipisci eveniet dolorum itaque optio. Maiores accusamus unde fugiat et
+                        deleniti voluptas sed aperiam soluta optio dolor alias culpa, velit mollitia non. Repellat
+                        ratione aut neque soluta perferendis est itaque natus distinctio reprehenderit tempore totam
+                        explicabo quidem sit cum unde, illo vero quisquam quos, dicta vitae quo rem sequi minus et. Ipsa
+                        ex consequuntur maxime commodi sit maiores molestiae est ullam labore illo vel animi, recusandae
+                        quod quasi? Provident corporis, illum dicta consectetur ea tenetur asperiores eius natus dolor
+                        libero quisquam deleniti nisi a ut nobis unde modi voluptatum adipisci earum in? Id molestias at
+                        necessitatibus et, impedit voluptate doloribus in illum. Dolorem, eum aut voluptate quos
+                        blanditiis debitis fugiat praesentium dicta corrupti dignissimos. Non, dignissimos natus
+                        quisquam laboriosam dolores labore earum quidem quaerat officiis, adipisci itaque!f</p>
+                </div>
+
+
+
+            </section>
+
+        </div>
+
+
+
+    </div>
+    <footer>
+        &copy; Copyright Hafiz Alizada.
+    </footer>
+
+
+</body>
+
+</html>
