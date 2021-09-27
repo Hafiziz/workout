@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="workcont.css">
+    <title>Contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5989b;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.socbar{
+    height: 10vh;
+    
+    background-color:#6d6875;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+}
+.socbar > h1{
+  color: whitesmoke;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  font-family: 'Stick No Bills', sans-serif;
+  letter-spacing: 8px;
+  
+  
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+ nav{
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    padding-right: 30px;
+    
+ }
+ li{
+    float: left;
+    padding: 10px;
+    margin-top: -12px;
+    
+ }
+ li > a{
+     text-decoration: none;
+     color: whitesmoke;
+     font-size: 1.1rem;
+     font-family: 'Titillium Web', sans-serif;
+     transition: 0.3s;
+     
+ }
+ li > a:hover{
+
+    background-color: whitesmoke ;
+    color: #6d6875;
+    border-radius: 5px;
+    
+ }
+
+ 
+ .fas{
+ padding-right: 5px;
+ }
+ .far{
+    padding-right: 5px;
+ }
+ .fab{
+    padding-right: 5px;
+ }
+ .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ section{
+     background-color:#b5838d ;
+     width: 70vw;
+     height: 400px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* display: flex;
+     justify-content: center;
+     align-items: center;*/
+ }
+ h3{
+     text-align: center;
+     font-size: 2rem;
+     color: whitesmoke;
+     font-family: 'Rajdhani', sans-serif;
+     letter-spacing: 8px;
+     border-bottom: 2px solid whitesmoke;
+     letter-spacing: 22px;
+ }
+ .img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 10px;
+   
+     
+ }
+.box{
+     height: 50vh;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+     margin-left: 100px;
+     margin-right: 100px;
+     background-color: whitesmoke;
+     padding-top: 20px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+    
+ }
+ img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;    border-radius: 3px;
+    width: 42.6rem;
+    height: 21.8rem;
+ }
+h2{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 10px;
+    color: #324e4e;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 20px;
+ 
+}
+.con{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.con-1{
+    color:peru;
+}
+.con-4{
+    color: blue;
+}
+.con-3{
+    color: red;
+}
+p{
+    padding-left: 35px;
+    padding-right: 25px;
+    font-size: 1.1rem;
+    color: #1e2f2f;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+footer{
+    height: 10vh;
+    background-color:#6d6875;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: center;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-family: 'Titillium Web', sans-serif;
+}
+ @media(max-width:500px){
+.socbar{
+    height: 20vh;
+
+     }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-left: -52px;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    width: 50vw;
+    height: 25vh;
+}
+.box{
+    width: 270px;
+    height: 137vh;
+}
+
+/*section{
+    width: 90vw;
+}
+.socbar{
+    width: 90vw;
+}*/
+section{
+display: flex;
+width: 90vw;
+align-items: center;
+flex-direction: column;
+height: 900px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.con{
+   padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+    </style>
+</head>
+
+<body>
+
+    <div class="contanier">
+
+
+        <div class="socbar">
+
+            <h1><i class="fas fa-fist-raised"></i>WORKOUT</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="workabout.html"><i class="fas fa-question-circle"></i></i>About</a></li>
+                    <li><a href="workcont.html"><i class="fas fa-address-book"></i>Contact</a></li>
+                    <li><a href="workgal.html"><i class="fab fa-envira"></i>Galery</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+        <div class="section">
+            <section>
+                <h3>Contact</h3>
+
+
+                <div class="box box-1">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium error sequi non. Illo magnam
+                        quibusdam similique quam veritatis ratione. Quia, enim. Repellendus officia ab veritatis
+                        quibusdam adipisci, velit recusandae atque minima perferendis eaque voluptas necessitatibus
+                        nostrum omnis commodi quaerat ea illo odit sequi obcaecati dolorem quod eligendi saepe qui nam!
+                        Laborum, vero. Culpa fugiat placeat rerum tempore quasi fuga perferendis nam ut eos beatae
+                        cupiditate, dicta aspernatur eaque ad ab at odit fugit quis, laboriosam facere nostrum unde quos
+                        numquam. Unde, quia. Dolor fuga eligendi, fugiat quidem labore sapiente? Cumque exercitationem
+                        nisi repellendus ducimus.</p>
+                        <hr>
+                     <div class="icons">
+                      <a href="https://www.instagram.com/hafiz.official/" class="con con-1"><i class="fab fa-instagram-square"></i>Instagram</a>
+                      <a href="https://www.facebook.com/" class="con con-2"><i class="fab fa-facebook-square"></i>Facebook</a>
+                      <a href="https://www.youtube.com/channel/UCeqIR61lGyY0LdTna7l-YpA" class="con con-3"><i class="fab fa-youtube-square"></i>Youtube</a>
+                      <a href="https://twitter.com/Hafiz11809521" class="con con-4"><i class="fab fa-twitter-square"></i>Twitter</a>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+        </div>
+
+
+
+    </div>
+    <footer>
+        &copy; Copyright Hafiz Alizada.
+    </footer>
+
+</body>
+
+</html>
